@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BaRead</string>
+
+    <string name="button">Scan</string>
+    <string name="textView">BaRead : QR/BARCODES </string>
+    <string name="content">Content : </string>
+</resources>

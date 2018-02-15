@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a1605126.baread.MainActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="360dp"
+        android:layout_height="49dp"
+        android:layout_above="@+id/textView3"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginBottom="29dp"
+        android:background="#FFFF00"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="398dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="360dp"
+        android:layout_height="49dp"
+        android:layout_above="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_marginBottom="22dp"
+        android:background="#2ffcf8"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="223dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="#2ffc00"
+        android:bottomLeftRadius="300dp"
+        android:bottomRightRadius="300dp"
+        android:shadowRadius="30"
+        android:text="@string/button"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="164dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="71dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="#ffa700"
+        android:gravity="center"
+        android:shadowDx="20"
+        android:shadowDy="20"
+        android:text="@string/textView"
+        android:textColor="#800000"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="24dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="362dp"
+        android:layout_height="47dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp"
+        android:background="#7FFFD4"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        tools:layout_editor_absoluteY="286dp" />
+</RelativeLayout>
